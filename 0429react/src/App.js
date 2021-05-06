@@ -6,7 +6,6 @@ class App extends React.Component {
      this.state = {
         data: '初始資料，來自父元件 this.state'
      }
-     this.updateState = this.updateState.bind(this);
   };
   updateState= () => {
 	  
